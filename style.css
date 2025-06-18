@@ -49,7 +49,8 @@ background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255,
 @media screen and (max-width: 768px) {
   #a-propos {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
   }
 
   .cartes-projets-conteneur {
