@@ -1,5 +1,6 @@
  header,
- footer{background-color: #9481ff69; color: #19004B; text-align: center; padding: 25px 0;}
+ footer{background: RGBA(71, 0, 122, 10);
+background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255, 0.4) 50%, rgba(71, 0, 122, 0.4) 100%); color: #19004B; text-align: center; padding: 25px 0;}
 
  header h1{margin: 0; font-size: 2.5em;}
 
