@@ -7,7 +7,7 @@ background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255,
  header p{margin: 5px 0 0 0; color: #000000c0}
 
 
- main{max-width: 950px; margin: 40px auto; padding: à 20px;}
+ main{ max-width: 950px; margin: 40px auto; padding: 0 20px;}
 
 
  section{background-color: #b8b8ff48; margin-bottom: 30px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)}
@@ -24,3 +24,24 @@ background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255,
  .cartes-projets-conteneur{display: flex; justify-content: space-between; gap: 20px;}
  .carte{background-color: #f8f9fa; border: 1px solid #e9ecef; padding: 20px; border-radius: 6px; width: 32%}
  .carte h3{margin-top: 0;}
+
+ body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  #a-propos {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cartes-projets-conteneur {
+    flex-direction: column;
+  }
+
+  .carte {
+    width: 100%;
+  }
+}
