@@ -11,7 +11,7 @@ background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255,
  header p{margin: 5px 0 0 0; color: #000000c0}
 
 
- main{ max-width: 950px; margin: 40px auto; padding: 0 20px;}
+ main{ max-width: 980px; margin: 40px auto; padding: 0 20px;}
 
 
  section{background-color: #b8b8ff48; margin-bottom: 30px; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)}
