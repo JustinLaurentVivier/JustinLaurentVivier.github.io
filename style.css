@@ -1,3 +1,7 @@
+ * {
+  box-sizing: border-box;
+}
+ 
  header,
  footer{background: RGBA(71, 0, 122, 10);
 background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255, 0.4) 50%, rgba(71, 0, 122, 0.4) 100%); color: #19004B; text-align: center; padding: 25px 0;}
@@ -21,8 +25,19 @@ background: linear-gradient(90deg, rgba(71, 0, 122, 0.4) 0%, rgba(147, 129, 255,
 
  #a-propos img{border-radius: 10%;}
 
- .cartes-projets-conteneur{display: flex; justify-content: space-between; gap: 20px;}
- .carte{background-color: #f8f9fa; border: 1px solid #e9ecef; padding: 20px; border-radius: 6px; width: 32%}
+.cartes-projets-conteneur {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+} .carte {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  padding: 20px;
+  border-radius: 6px;
+  flex: 1;
+  min-width: 0;
+}
  .carte h3{margin-top: 0;}
 
  body {
